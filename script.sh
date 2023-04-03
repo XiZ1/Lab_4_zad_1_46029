@@ -1,8 +1,7 @@
 #!/bin/bash
 
-if [ "$1" = "--help" ]; then
-    echo --help wyswietla liste parametrow do uzycia
-    echo --date wyswietla date dla danej strefy czasowej
-    echo --log tworzy 100 plikow logx.txt gdzie x to kazdy kolejny numer pliku
-    echo --log liczba tworzy 100 plikow logx.txt gdzie x to kazdy kolejny numer pliku liczba to ilosc plikow jakie ma stworzyc skrypt
+
+
+if [ "$1" = "--init" ]; then
+    git clone https://github.com/XiZ1/Lab_4_zad_1_46029.git pwd
 fi
